@@ -20,7 +20,7 @@ const Numbers = () => {
             key={index}
             button={number}
           />
-        )
+        );
       })}
 
        {/* STEP 3 - Use .map() to iterate over your array data and return a button
